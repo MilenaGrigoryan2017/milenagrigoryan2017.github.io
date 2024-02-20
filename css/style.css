@@ -252,6 +252,14 @@ body{
         font-size: 100px;
 
     }
+       .day-container,
+    .hours-container,
+    .minutes-container,
+    .seconds-container{
+        width:70px;
+        border-left:1px solid white ;
+        
+    }
     .Eliza{
         right: -50px;
     }
