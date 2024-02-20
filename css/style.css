@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../image/pngtree-realistic-christmas-background-winter-christmas-holiday-christmas-background-christmas-background-with-image_443338.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center center;
+    color:rgb(14, 86, 122);
+    font-size: 25px;
+    text-align: center;
+    background-attachment: fixed;
+    
+
+}
+.home{
+    padding:50px
+}
+.home>h1,
+.home>h3,
+.home>h2{
+    font-size: 200px;
+    color: #2071b3;
+    -webkit-text-stroke: 2px #ffffff;
+    font-family: "Vrdznagir" ;
+    font-weight: 900;
+}
+.home>h2{
+    font-size: 60px;
+    
+}
+
+.container{
+    display: flex;
+    width:100%;
+    padding: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 60px;
+}
+.container>h1{
+    padding: 50px;
+    width:100%;
+}
+.invitation{
+    padding:100px;
+    background-color: rgba(147, 162, 214, 0.592);
+    border-radius: 50px;
+    width:60%;
+    margin:auto;
+    line-height: 1.6;
+    font-size: 42px;
+    flex-wrap: wrap;
+}
+.Anna{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 250px;
+}
+.Eliza{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+.header{
+    position: relative;
+}
+.ice{
+    position: absolute;
+    animation: iceMove 20s linear infinite;
+    width:50px;
+    top:-500px
+    
+
+}
+.ice1{
+    left:0;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+}
+.ice2{
+    left:10%;
+    animation-delay: 1.5s;
+    animation-timing-function: ease-in;
+}
+.ice3{
+    left:20%;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    
+}
+.ice4{
+    left:30%;
+    animation-delay: 3s;
+    animation-timing-function: ease;
+}
+.ice5{
+    left:40%;
+    animation-delay: 1s;
+}
+.ice6{
+    left:50%;
+    animation-delay: 2s;
+}
+.ice7{
+    left:60%;
+    animation-delay: 1.5s;
+}
+.ice8{
+    left:70%;
+    animation-delay: 3s;
+}
+.ice9{
+    left:80%;
+    animation-delay: 2s;
+}
+.ice10{
+    left:90%;
+    animation-delay: 4s;
+}
+.ice11{
+    left:25%;
+    animation-delay: 4s;
+}
+.ice12{
+    left:65%;
+    animation-delay: 1s;
+}
+.ice13{
+    left:0;
+    animation-delay: 5s;
+    animation-timing-function: ease;
+}
+.ice14{
+    left:10%;
+    animation-delay: 6s;
+    animation-timing-function: ease-in;
+}
+.ice15{
+    left:20%;
+    animation-delay: 6.5s;
+    animation-timing-function: ease-in-out;
+    
+}
+.ice16{
+    left:30%;
+    animation-delay: 7s;
+    animation-timing-function: ease;
+}
+.ice17{
+    left:40%;
+    animation-delay: 15s;
+}
+.ice18{
+    left:50%;
+    animation-delay: 13s;
+}
+.ice19{
+    left:60%;
+    animation-delay: 8s;
+}
+.ice20{
+    left:70%;
+    animation-delay: 7s;
+}
+.ice21{
+    left:80%;
+    animation-delay: 8.5s;
+}
+.ice22{
+    left:90%;
+    animation-delay: 9s;
+}
+.ice23{
+    left:45%;
+    animation-delay: 10s;
+}
+.ice24{
+    left:75%;
+    animation-delay: 9.5s;
+}
+.hours-text{
+    font-size:18px;
+}
+.yearBth{
+    font-size: 72px;
+    color:white;
+    font-family: "Vrdznagir";
+    padding: 30px;
+}
+.snowmen{
+    transform: rotate(-90deg);
+    position: fixed;
+    top:100px;
+    width:200px;
+    right: 0;
+}
+@keyframes iceMove{
+    from {
+        top:-100px
+    }
+    to{
+        top:1200px;
+    }
+}
+@font-face {
+    font-family: "Vrdznagir" ;
+    src: url("../font/Vrdznagir.otf");
+}
+@media only screen and (max-width:1024px) {
+    body{
+        background-size: cover;
+    }
+    .Anna {
+        width:100px;
+    }
+    .Eliza{
+        width:300px;
+    }
+    .snowmen{
+        width:100px;
+        top:0px
+    }
+    .home>h1, .home>h3, .home>h2{
+        font-size: 150px;
+    }
+    .container {
+        font-size: 40px;
+        padding:50px;
+    }
+    .invitation{
+        width:80%;
+        padding:30px;
+
+    }
+    .yearBth{
+        font-size: 60px;
+    }
+
+    
+}
+@media only screen and (max-width:600px) {
+    .home{
+        width:100%;
+        padding: 10px;
+    }
+    .home>h1, .home>h3, .home>h2 {
+        font-size: 100px;
+
+    }
+    .Eliza{
+        right: -50px;
+    }
+    .container{
+        padding: 10px;
+        font-size: 30px;
+    }
+    
+    .invitation{
+        font-size: 22px;
+    }
+    .yearBth{
+        font-size: 32px;
+    }
+}
