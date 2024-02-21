@@ -25,11 +25,19 @@ day.innerHTML=days;
 hours.innerHTML=((hoursd<10)?"0":"") + hoursd;
 minutes.innerHTML=((minutesd<10)?"0":"") + minutesd;
 seconds.innerHTML=((secondsd<10)?"0":"") + secondsd;
+  if(days<0 && hoursd<0 && minutesd<0 && secondsd<0){
+    clearInterval(indecator)
+    day.innerHTML="00";
+    hours.innerHTML="00";
+    minutes.innerHTML="00";
+    seconds.innerHTML="00";
+}
 }
 
-setInterval(countDown,1000);
-let ssss=new Date();
-console.log(ssss)
+let indecator=setInterval(countDown,1000);
+
+
+
 
 
 
